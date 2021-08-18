@@ -1,0 +1,29 @@
+{
+  "name": "bench__3layout",
+  "version": "1.0.0",
+  "description": "bench__3layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rozhkow/bench__3layout.git"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rozhkow/bench__3layout/issues"
+  },
+  "homepage": "https://github.com/Rozhkow/bench__3layout#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0"
+  },
+  "dependencies": {}
+}
