@@ -1,0 +1,12 @@
+/*Text*/
+@mixin montserrat-normal() {
+    font-family: $title-font;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@mixin calibri-normal() {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+}

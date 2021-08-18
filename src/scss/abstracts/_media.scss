@@ -1,0 +1,21 @@
+$laptop: 1279px;
+$tablet: 767px;
+$phone: 767px;
+@mixin respond-to($media) {
+    @if $media == phones {
+        @media only screen and (max-width: $phone) {
+            //710px
+            @content;
+        }
+    } @else if $media == tablets {
+        @media only screen and (max-width: $tablet) {
+            //from 768
+            @content;
+        }
+    } @else if $media == laptops {
+        @media only screen and (max-width: $laptop) {
+            //from 1280
+            @content;
+        }
+    }
+}

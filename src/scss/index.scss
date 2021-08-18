@@ -1,2 +1,10 @@
 @import "base/reset";
 @import "base/fonts";
+
+@import "abstracts/media";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "components/main";
+@import "components/sections";
+@import "components/profile";
