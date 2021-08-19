@@ -1,0 +1,19 @@
+.header__logo {
+    display: flex;
+
+    &-text {
+        font-family: forum-normal;
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $color-white;
+        padding-left: 20px;
+    }
+
+    &-frame {
+        max-width: 49px;
+        max-height: 26px;
+        padding-top: 9px;
+    }
+}

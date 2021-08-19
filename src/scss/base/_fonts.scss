@@ -1,25 +1,35 @@
 @font-face {
-    font-family: "Montserrat";
+    font-family: "Forum-Regular";
     font-style: normal;
     font-weight: normal;
-    src: local("Montserrat"), local("Montserrat"),
-        url("../../assets/fonts/Montserrat.ttf") format("ttf"),
+    src: local("Forum-Regular"), local("Forum-Regular"),
+        url("../../assets/fonts/Forum-Regular.ttf") format("ttf"),
         /* Chrome 26+, Opera 23+, Firefox 39+ */
-            url("../../assets/fonts/Montserrat.ttf") format("ttf"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+            url("../../assets/fonts/Forum-Regular.ttf") format("ttf"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
-    font-family: "Calibri";
+    font-family: "Roboto-Regular";
     font-style: normal;
     font-weight: normal;
-    src: local("Calibri"), local("Calibri"),
-        url("./fonts/Calibri.ttf") format("ttf"),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("./fonts/Calibri.ttf")
+    src: local("Roboto-Regular"), local("Roboto-Regular"),
+        url("./fonts/Roboto-Regular.ttf") format("ttf"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/Roboto-Regular.ttf") format("ttf"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Roboto-Thin"), local("Roboto-Thin"),
+        url("./fonts/Roboto-Thin.ttf") format("ttf"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("./fonts/Roboto-Thin.ttf")
             format("ttf"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Forum-Regular", sans-serif;
     background-color: #fff;
     font-weight: normal;
     font-style: normal;
@@ -31,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Calibri", serif;
+    font-family: "Roboto-Regular", serif;
     font-weight: normal;
     font-style: normal;
 }
