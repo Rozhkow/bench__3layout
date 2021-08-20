@@ -1,0 +1,60 @@
+.welcome {
+    position: relative;
+    background-color: $color-bg;
+}
+
+.welcome__img-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.welcome__background {
+    position: absolute;
+    margin-left: 440px;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+            90deg,
+            #030303 0%,
+            rgba(0, 0, 0, 0.5) 16.19%,
+            rgba(0, 0, 0, 0) 30.73%
+        ),
+        url("./img/welcome-bg.png");
+    background-repeat: no-repeat;
+}
+
+.welcome__column {
+    position: relative;
+    z-index: 1;
+    max-width: 598px;
+    padding: 150px 0 290px 0;
+}
+
+.welcome__title:nth-child(2) {
+    margin: 0 0 25px 0;
+    white-space: nowrap;
+}
+
+.welcome__article {
+    @include font(2.8rem, 3.3rem, $weight: 300, $style: normal);
+    @extend %font-primary;
+    margin-bottom: 102px;
+    letter-spacing: 2px;
+    color: $color-light;
+}
+
+.welcome__pagination-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.welcome__pagination {
+    width: 600px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 840px;
+    border-color: $color-bg;
+    z-index: 2;
+}

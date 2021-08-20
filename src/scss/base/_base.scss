@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #000;
+}
+
+h1 {
+  @include font($size: 8rem, $height: 9rem, $weight: 300);
+  @extend %font-add;
+  color: $color-light;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h2 {
+  @include font(8rem, 9rem);
+  @extend %font-add;
+  color: $color-light;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  @include font(3.2rem, 3.5rem);
+  @extend %font-add;
+  letter-spacing: 5px;
+}

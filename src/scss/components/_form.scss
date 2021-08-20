@@ -1,0 +1,83 @@
+.form-tickets {
+    display: flex;
+    justify-content: space-between;
+    color: $color-light;
+}
+
+.form-tickets__type-ticket {
+    margin: 0 180px 0 0;
+}
+
+.form-tickets__subtitle {
+    margin: 0 0 29px 0;
+    @include font(2.5rem, 3.1rem, 700);
+    letter-spacing: 2px;
+    &_r {
+        margin: 0 0 14px 0;
+        text-align: right;
+    }
+}
+
+.form-tickets__item {
+    margin: 25px 0;
+}
+
+.form-tickets__radio-label {
+    padding: 0 0 0 21px;
+}
+
+.form-tickets__column-amount {
+    margin: 0 0 51px 0;
+}
+
+.form-tickets__item-amount:not(:last-child) {
+    display: block;
+    margin: 0 0 35px 0;
+}
+
+.form-tickets__label {
+    display: inline-block;
+    margin: 0 0 14px 0;
+}
+
+.form-tickets__count-group {
+    display: flex;
+    height: 50px;
+    border: 3px solid $color-light;
+}
+
+.form-tickets__count-button {
+    width: 44px;
+    border: none;
+    color: $color-light;
+    font-size: 2.8rem;
+    background-color: $color-bg;
+}
+
+.form-tickets__area {
+    max-width: 58px;
+    margin: 0 -1px 0 -1px;
+    border: none;
+    color: $color-light;
+    background-color: $color-bg;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+}
+
+.form-tickets__total {
+    margin: 0 0 65px 0;
+    @include font(2.5rem, 3.1rem, 700);
+    letter-spacing: 3.3px;
+    white-space: nowrap;
+}
+
+.form-tickets__btn {
+    padding: 10px 38px;
+    margin: 0 0 0 -26px;
+    border-radius: 2px;
+    color: #000;
+    letter-spacing: 2px;
+    background-color: $color-light;
+}

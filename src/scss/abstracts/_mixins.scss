@@ -1,12 +1,6 @@
-/*Text*/
-@mixin roboto-normal() {
-    font-family: $title-font;
-    font-style: normal;
-    font-weight: normal;
-}
-
-@mixin forum-normal() {
-    font-family: $main-font;
-    font-style: normal;
-    font-weight: normal;
+@mixin font($size, $height: $size, $weight: normal, $style: normal) {
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+  font-style: $style;
 }

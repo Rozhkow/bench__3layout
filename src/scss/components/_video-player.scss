@@ -1,0 +1,48 @@
+.bar {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    margin-top: 20px;
+    background-color: $color-mark;
+}
+
+.play {
+    width: 23px;
+    height: 30px;
+    background-image: url(./img/svg/video-player/02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 50.65px;
+}
+
+.bar__progress {
+    flex: 1 1;
+    max-width: 929px;
+    margin-right: 50px;
+}
+
+.bar__micro {
+    width: 38px;
+    height: 30px;
+    background-image: url(./img/svg/video-player/05.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bar__volume {
+    flex: 1 1;
+    max-width: 155px;
+    margin: 0 50px;
+}
+
+.bar__full {
+    width: 36px;
+    height: 36px;
+    background-image: url(./img/svg/video-player/07.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
